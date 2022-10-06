@@ -16,7 +16,7 @@ export default function NavBar() {
 	  <Container fluid className='flex flex-row'>
 	    <Navbar.Brand as={Link} to="/" className="items-center justify-start laptop:justify-center flex flex-row w-1/3 tabletWide:w-1/12 laptop:w-2/12">
 	    	<Image src={rpg} alt="RPG logo" className="h-12 w-12 rounded-full mx-2 bg-white"/>
-	    	<span className="text-yellow-100 font-bold ml-2 text-2xl phone:hidden laptop:inline">CG GAMES PH</span>
+	    	<span className="text-yellow-100 font-bold ml-2 text-4xl gold phone:hidden laptop:inline font-bangers">CG GAMES PH</span>
 	    </Navbar.Brand>
 	    <Navbar.Toggle aria-controls="navbarScroll" />
 	    <Navbar.Collapse id="navbarScroll" className='flex flex-row w-2/3 tabletWide:w-11/12 laptop:w-10/12 justify-end tabletWide:justify-between items-center'>
